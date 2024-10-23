@@ -38,7 +38,7 @@ $ pnpm add exchain
 
 ## Usage
 ```js
-import exchain from './src/index';
+import exchain from 'exchain';
 
 (async () => {
 
