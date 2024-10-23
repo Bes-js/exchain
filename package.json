@@ -1,0 +1,59 @@
+{
+  "name": "exchain",
+  "description": " A fast and flexible currency exchange package for handling multiple currencies.",
+  "version": "2.0.0",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "types": {
+        "require": "./dist/index.d.ts",
+        "default": "./dist/index.d.mts"
+      },
+      "default": {
+        "require": "./dist/index.js",
+        "default": "./dist/index.mjs"
+      }
+    }
+  },
+  "keywords": [
+    "exchange",
+    "currency",
+    "converter",
+    "rates",
+    "exchange rates",
+    "nyro",
+    "exchain",
+    "currencies",
+    "currency exchange",
+    "exchange package"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bes-js/exchain.git"
+  },
+  "author": {
+    "name": "Bes-js",
+    "url": "https://github.com/Bes-js"
+  },
+  "bugs": {
+    "url": "https://github.com/Bes-js/exchain/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Bes-js"
+  },
+  "scripts": {
+    "test": "ts-node test.ts",
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "nyro": "^1.0.0"
+  }
+}
